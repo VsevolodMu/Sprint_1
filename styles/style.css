@@ -1,1 +1,100 @@
 /* место для вашего кода */
+
+.header {
+    display: grid;
+    margin: 92px 24px 24px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+}
+
+.navigation__panel {
+    margin-left: 26px;
+    width: 392px;
+    height: 22px;
+    margin-top: 44px;
+}
+
+.list {
+    display: flex;
+    list-style-type: circle;
+    column-gap: 29px;
+
+}
+
+.list li {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+li:first-child {
+    list-style-type: none;
+}
+
+li:nth-child(2) {
+    list-style-position: outside; /* Помещаем маркеры за пределами элементов списка */
+    padding-left: 3px;
+
+}
+
+li:nth-child(3) {
+    margin-left: 2px;
+    list-style-position: outside; /* Помещаем маркеры за пределами элементов списка */
+    padding-left: 4px;
+
+}
+
+.header__link-list-not-decorated {
+    text-decoration: none;
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    line-height: 16px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+
+.header__logo-black {
+    height: 105px;
+    align-content: center;
+    padding-right: 100px;
+}
+
+.header__address {
+    margin-left: 52px;
+    margin-top: 5px;
+    height: 99px;
+    width: 241px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    text-align: left;
+    font-family: Raleway, sans-serif;
+}
+
+.cover {
+    margin-top: 100px;
+    width: 1100px;
+    height: 757px ;
+    background-image: url("../images/overlay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 165px;
+    height: 520px;
+}
