@@ -61,7 +61,13 @@
     line-height: 16px;
     text-align: start;
     letter-spacing: normal;
-
+    margin-left: 52px;
+    margin-top: 5px;
+    height: 99px;
+    width: 241px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header__logo-black {
@@ -70,18 +76,6 @@
     padding-right: 100px;
 }
 
-.header__address {
-    margin-left: 52px;
-    margin-top: 5px;
-    height: 99px;
-    width: 241px;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 25px;
-    text-align: left;
-    font-family: Raleway, sans-serif;
-}
 
 .cover {
     margin-top: 100px;
@@ -214,11 +208,11 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
-.card__title{
+.card__title {
     margin: 51px 40px 40px;
 }
 
-.card__text{
+.card__text {
     margin-left: 40px;
     margin-top: 238px;
 }
