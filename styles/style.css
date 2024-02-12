@@ -57,9 +57,6 @@
 .header__address {
     display: flex;
     flex-direction: column;
-    font-family: Inter, sans-serif;
-    line-height: 16px;
-    text-align: start;
     letter-spacing: normal;
     margin-left: 52px;
     margin-top: 5px;
@@ -68,6 +65,9 @@
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
+    line-height: 25px;
+    text-align: left;
+    font-family: Raleway, sans-serif;
 }
 
 .header__logo-black {
