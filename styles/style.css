@@ -33,17 +33,17 @@
     text-align: left;
 }
 
-li:first-child {
+.list li:first-child {
     list-style-type: none;
 }
 
-li:nth-child(2) {
+.list li:nth-child(2) {
     list-style-position: outside; /* Помещаем маркеры за пределами элементов списка */
     padding-left: 3px;
 
 }
 
-li:nth-child(3) {
+.list li:nth-child(3) {
     margin-left: 2px;
     list-style-position: outside; /* Помещаем маркеры за пределами элементов списка */
     padding-left: 4px;
@@ -85,16 +85,150 @@ li:nth-child(3) {
 
 .cover {
     margin-top: 100px;
-    width: 1100px;
-    height: 757px ;
+    width: 100%;
+    height: 757px;
     background-image: url("../images/overlay.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.title{
-    margin-left: 50px;
-    margin-right: 50px;
+.title {
     padding-top: 165px;
     height: 520px;
 }
+
+.title-text:nth-child(1) {
+    margin-left: 50px;
+}
+
+
+.text-align {
+    text-transform: uppercase;
+    letter-spacing: 32px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115%;
+    display: block;
+    color: rgb(255 255 255);
+}
+
+.text-align .text-align-spacing {
+    padding-left: 26px;
+}
+
+.text-align-center {
+    text-align: center;
+    margin-right: 42px;
+    margin-top: 13px;
+    padding-right: 35px;
+}
+
+.text-align-center-spacing {
+    margin-left: 28px;
+}
+
+.text-align-right {
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 5px;
+}
+
+.text-align-right-spacing {
+    padding-left: 25px;
+}
+
+.cover-subline {
+    margin-top: 109px;
+    margin-left: 78px;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255 255 255);
+    word-spacing: 20px;
+    display: flex;
+}
+
+.subline-text {
+    margin-top: 40px;
+}
+
+.subline-text-second {
+    padding-left: 22px;
+}
+
+.subline-text-third {
+    padding-left: 22px;
+}
+
+.subline-btn {
+    margin-left: 77px;
+    padding-bottom: 20px;
+    margin-top: 27px;
+    font-family: Raleway, sans-serif;
+    width: 256px;
+    height: 51px;
+    border: solid 1px;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.lots {
+    margin-top: 179px;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 692px;
+}
+
+.lots-title {
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-bottom: 27px;
+}
+
+
+.lots__card-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+}
+
+.lots__card-list-item {
+    width: 334px;
+    height: 563px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.card__title{
+    margin: 51px 40px 40px;
+}
+
+.card__text{
+    margin-left: 40px;
+    margin-top: 238px;
+}
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
