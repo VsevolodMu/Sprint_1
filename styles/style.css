@@ -201,6 +201,7 @@
 .lots__card-list {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     list-style-type: none;
     color: white;
 }
@@ -208,19 +209,21 @@
 .lots__card-list-item {
     width: 334px;
     height: 563px;
+    position: relative;
+}
+
+.card__link{
+    text-decoration: none;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+
 }
 
 .overlay {
     background: rgba(0, 0, 0, 0.6);
-}
-
-.card__title {
-    margin: 51px 40px 40px;
-}
-
-.card__text {
-    margin-left: 40px;
-    margin-top: 238px;
 }
 
 .card_type_film {
@@ -229,6 +232,25 @@
     background-position: center;
     background-size: cover;
 }
+
+.card{
+    height: 100%;
+}
+
+.card__title {
+    margin: 51px 40px 40px;
+}
+
+
+
+
+.card__text {
+    margin-left: 40px;
+    margin-top: 238px;
+}
+
+
+
 
 
 
