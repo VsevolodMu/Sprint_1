@@ -237,16 +237,23 @@
     height: 100%;
 }
 
-.card__title {
-    margin: 51px 40px 40px;
+.card__title{
+    padding-top: 51px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
 }
-
-
-
 
 .card__text {
     margin-left: 40px;
-    margin-top: 238px;
+    margin-top: 242px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-right: 40px;
 }
 
 
