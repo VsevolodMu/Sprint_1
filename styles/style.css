@@ -194,16 +194,19 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    padding-bottom: 27px;
+    padding-bottom: 28px;
 }
 
 
 .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     list-style-type: none;
     color: white;
+    margin-bottom: 32px; /* margin for link more */
+    width: 100%;
 }
 
 .lots__card-list-item {
@@ -212,14 +215,13 @@
     position: relative;
 }
 
-.card__link{
+.card__link {
     text-decoration: none;
     position: absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .overlay {
@@ -233,11 +235,25 @@
     background-size: cover;
 }
 
-.card{
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
     height: 100%;
 }
 
-.card__title{
+.card__title {
     padding-top: 51px;
     padding-left: 40px;
     padding-right: 40px;
@@ -255,6 +271,78 @@
     line-height: 120%;
     margin-right: 40px;
 }
+
+
+.card__text-margin-null {
+    margin-top: 0;
+}
+
+.card__text-margin {
+    margin-top: 94px;
+}
+
+.lots__look-more-link {
+    margin-left: 40px;
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+
+.about {
+    height: 595px;
+    margin-top: 148px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    margin-left: 24px;
+    margin-right: 31px;
+}
+
+.about__logo {
+    border-radius: 100%;
+    background-color: black;
+    height: 240px;
+    width: 240px;
+    margin-top: 35px;
+    margin-left: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+
+}
+
+.about__column {
+    margin-top: 133px;
+    margin-left: 25px;
+}
+
+.about__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.about__text{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 103px;
+}
+
+.about__text-no-pudding{
+    margin-top: 22px;
+}
+
 
 
 
