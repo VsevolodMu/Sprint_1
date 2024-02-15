@@ -5,9 +5,6 @@
     margin: 92px 24px 24px;
     grid-template-columns: repeat(3, 1fr);
     height: 100px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
 
 }
 
@@ -134,6 +131,7 @@
 }
 
 .cover-subline {
+    justify-content: right;
     margin-top: 109px;
     margin-left: 78px;
     font-family: Raleway, sans-serif;
@@ -144,6 +142,7 @@
     color: rgb(255 255 255);
     word-spacing: 20px;
     display: flex;
+    padding-right: 50px;
 }
 
 .subline-text {
@@ -196,24 +195,21 @@
 
 .lots__card-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     list-style-type: none;
     color: white;
     margin-bottom: 32px; /* margin for link more */
     width: 100%;
+    gap: 25px;
 }
 
 .lots__card-list-item {
-    min-width: 334px;
     height: 563px;
-    position: relative;
 }
 
 .card__link {
     text-decoration: none;
-    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -248,6 +244,13 @@
 
 .card {
     height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    max-width: 500px;
+    min-width: 334px ;
 }
 
 .card__title {
